@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43BA2E75299952D6007C2A7F /* FluidStepperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA2E74299952D6007C2A7F /* FluidStepperApp.swift */; };
+		43BA2E77299952D6007C2A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA2E76299952D6007C2A7F /* ContentView.swift */; };
+		43BA2E79299952D8007C2A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BA2E78299952D8007C2A7F /* Assets.xcassets */; };
+		43BA2E7C299952D8007C2A7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BA2E7B299952D8007C2A7F /* Preview Assets.xcassets */; };
+		43BA2E85299955AC007C2A7F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA2E84299955AC007C2A7F /* Color.swift */; };
+		43BA2E8729995DE1007C2A7F /* FluidStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA2E8629995DE1007C2A7F /* FluidStepper.swift */; };
+		43BA2E892999650E007C2A7F /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA2E882999650E007C2A7F /* ControlButton.swift */; };
+		43BA2E8C29997D72007C2A7F /* FluidStepper+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA2E8B29997D72007C2A7F /* FluidStepper+Helpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43BA2E71299952D6007C2A7F /* FluidStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BA2E74299952D6007C2A7F /* FluidStepperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidStepperApp.swift; sourceTree = "<group>"; };
+		43BA2E76299952D6007C2A7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43BA2E78299952D8007C2A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43BA2E7B299952D8007C2A7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43BA2E84299955AC007C2A7F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		43BA2E8629995DE1007C2A7F /* FluidStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidStepper.swift; sourceTree = "<group>"; };
+		43BA2E882999650E007C2A7F /* ControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButton.swift; sourceTree = "<group>"; };
+		43BA2E8B29997D72007C2A7F /* FluidStepper+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FluidStepper+Helpers.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43BA2E6E299952D6007C2A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43BA2E68299952D6007C2A7F = {
+			isa = PBXGroup;
+			children = (
+				43BA2E73299952D6007C2A7F /* FluidStepper */,
+				43BA2E72299952D6007C2A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43BA2E72299952D6007C2A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43BA2E71299952D6007C2A7F /* FluidStepper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43BA2E73299952D6007C2A7F /* FluidStepper */ = {
+			isa = PBXGroup;
+			children = (
+				43BA2E74299952D6007C2A7F /* FluidStepperApp.swift */,
+				43BA2E76299952D6007C2A7F /* ContentView.swift */,
+				43BA2E8A29997C79007C2A7F /* Stepper */,
+				43BA2E832999559A007C2A7F /* Extensions */,
+				43BA2E8229995566007C2A7F /* Helpers */,
+				43BA2E78299952D8007C2A7F /* Assets.xcassets */,
+				43BA2E7A299952D8007C2A7F /* Preview Content */,
+			);
+			path = FluidStepper;
+			sourceTree = "<group>";
+		};
+		43BA2E7A299952D8007C2A7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43BA2E7B299952D8007C2A7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43BA2E8229995566007C2A7F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43BA2E882999650E007C2A7F /* ControlButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		43BA2E832999559A007C2A7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43BA2E84299955AC007C2A7F /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43BA2E8A29997C79007C2A7F /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				43BA2E8629995DE1007C2A7F /* FluidStepper.swift */,
+				43BA2E8B29997D72007C2A7F /* FluidStepper+Helpers.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43BA2E70299952D6007C2A7F /* FluidStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BA2E7F299952D8007C2A7F /* Build configuration list for PBXNativeTarget "FluidStepper" */;
+			buildPhases = (
+				43BA2E6D299952D6007C2A7F /* Sources */,
+				43BA2E6E299952D6007C2A7F /* Frameworks */,
+				43BA2E6F299952D6007C2A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidStepper;
+			productName = FluidStepper;
+			productReference = 43BA2E71299952D6007C2A7F /* FluidStepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43BA2E69299952D6007C2A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					43BA2E70299952D6007C2A7F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 43BA2E6C299952D6007C2A7F /* Build configuration list for PBXProject "FluidStepper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43BA2E68299952D6007C2A7F;
+			productRefGroup = 43BA2E72299952D6007C2A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43BA2E70299952D6007C2A7F /* FluidStepper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43BA2E6F299952D6007C2A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BA2E7C299952D8007C2A7F /* Preview Assets.xcassets in Resources */,
+				43BA2E79299952D8007C2A7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43BA2E6D299952D6007C2A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BA2E8729995DE1007C2A7F /* FluidStepper.swift in Sources */,
+				43BA2E77299952D6007C2A7F /* ContentView.swift in Sources */,
+				43BA2E892999650E007C2A7F /* ControlButton.swift in Sources */,
+				43BA2E75299952D6007C2A7F /* FluidStepperApp.swift in Sources */,
+				43BA2E8C29997D72007C2A7F /* FluidStepper+Helpers.swift in Sources */,
+				43BA2E85299955AC007C2A7F /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43BA2E7D299952D8007C2A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43BA2E7E299952D8007C2A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43BA2E80299952D8007C2A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluidStepper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FluidStepper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43BA2E81299952D8007C2A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluidStepper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FluidStepper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43BA2E6C299952D6007C2A7F /* Build configuration list for PBXProject "FluidStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BA2E7D299952D8007C2A7F /* Debug */,
+				43BA2E7E299952D8007C2A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43BA2E7F299952D8007C2A7F /* Build configuration list for PBXNativeTarget "FluidStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BA2E80299952D8007C2A7F /* Debug */,
+				43BA2E81299952D8007C2A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43BA2E69299952D6007C2A7F /* Project object */;
+}
