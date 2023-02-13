@@ -102,10 +102,11 @@ private extension FluidStepper {
 private extension FluidStepper {
     private func updateDragLocation(with translation: CGSize) {
         withAnimation {
-            if translation.height <= 30 {
-                if translation.width > 0 {
+            print(translation.height)
+            if translation.height <= 0 {
+                if translation.width > 10 {
                     self.dragDirection = .right
-                } else if translation.width < 0 {
+                } else if translation.width < 10 {
                     self.dragDirection = .left
                 }
             } else if self.dragDirection == .none {
